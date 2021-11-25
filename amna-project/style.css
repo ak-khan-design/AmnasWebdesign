@@ -1,0 +1,94 @@
+html, body {
+  height: 100vh;
+/*  background-image: #BF6D50; */
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+font-size: 12px;
+margin: 0;
+}
+
+/*body {
+  background: pink;
+  font-family: 'Libre Baskerville', serif;
+} */
+nav{
+}
+
+.name {
+  font-size: 10em;
+}
+h2 {
+  font-size: 2em;
+  margin: 0;
+  color: blue;
+}
+
+.nav-link {
+  font-family: Arial;
+  font-size: 15px;
+  padding: 0.5em 2em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  background-color:#eb4034;
+  color: white;
+  border-radius: 1em;
+  transition: transform 1s;
+  display: inline-block
+}
+.nav-link:hover {
+  transition: transform 1s;
+  transform: scale(1.1);
+  background-color: blue;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+/* padding: 50px 50px; */
+}
+
+
+/* CONTACT STYLES
+-----------------------------------------*/
+form {
+  width: 100%;
+}
+input,
+textarea {
+  border: 1px solid #BF6D50;
+  width: 100%;
+  margin-bottom: 10px;
+}
+input {
+  height: 20px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background: #BF6D50;
+  border: none;
+  padding: 10px 40px;
+
+}
+footer {
+    background-color: grey;
+    border-radius: 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+}
+
+     .logo{
+         object-fit: contain;
+         height: 10em;
+         width: 10em;
+         border-radius:1em;
+     }
+  /*CONTACT STUFF*/
+.contact {
+margin: 0;
+padding: 0;
+}
